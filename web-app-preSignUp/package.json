@@ -1,0 +1,16 @@
+{
+  "name": "web-app-presignup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "aws lambda update-function-code --function-name web-app-preSignUp --zip-file fileb://index.zip "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.31",
+    "uuid": "^8.3.0"
+  }
+}
